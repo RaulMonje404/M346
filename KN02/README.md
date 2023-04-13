@@ -1,6 +1,6 @@
 ### KN02
 #### A
-!(/M346/KN02/YAML.png "YAML File")
+!(../YAML.png "YAML File")
 
 ##### The Code
 `#cloud-config
