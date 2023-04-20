@@ -1,12 +1,11 @@
 ### KN02
 #### A
-[!(A/YAML_A.png)]
-![[A/YAML.png]]
+![Bild von ka was](A/YAML.png)
 #### B
-[!(B/Status_B.png)]
-[!(B/Web.png)]
+![Bild von ka was](B/Status_B.png)
+![Bild von ka was](B/Web.png)
 #### C
-[!(C/Admin DB Enter.png)]
+![Bild von ka was](C/Admin_DB_Enter.png)
 ##### The Code
 `#cloud-config
 users: # Liste der Users
