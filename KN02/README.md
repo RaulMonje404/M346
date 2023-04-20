@@ -1,7 +1,6 @@
 ### KN02
 #### A
-[!(A/YAML.png)]
-![A/YAML.png]
+![Bild von ka was](A/YAML.png)
 ##### The Code
 `#cloud-config
 users: # Liste der Users
