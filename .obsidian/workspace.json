@@ -11,6 +11,16 @@
             "id": "32d386c0d22675be",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "KN02.pdf"
+              }
+            }
+          },
+          {
+            "id": "ccd5671b97012858",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "KN02/README.md",
@@ -19,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,11 +157,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32d386c0d22675be",
+  "active": "ccd5671b97012858",
   "lastOpenFiles": [
+    "KN02/Instanz_Delete.png",
+    "KN02/README.md",
+    "KN02.pdf",
+    "KN02/C/Admin DB Enter.png",
+    "KN03.pdf",
+    "KN02/B/Web.png",
+    "KN02/B/Status_B.png",
+    "KN02/A/YAML_A.png",
+    "KN02/A/raul.monje.yaml",
     "2023-04-13.md",
     "Untitled.canvas",
-    "KN02/README.md",
     "Assets"
   ]
 }
