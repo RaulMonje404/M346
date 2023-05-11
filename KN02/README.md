@@ -1,6 +1,7 @@
 ### KN02
 #### A
 ![Bild von ka was](A/YAML_A.png)
+![Bild von ka was](A/YAML_A_2.png)
 #### B
 ![Bild von ka was](B/Status_B.png)
 ![Bild von ka was](B/Web.png)
