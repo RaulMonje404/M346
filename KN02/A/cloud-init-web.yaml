@@ -49,4 +49,6 @@ write_files:
       //var_dump($result);
       ?>
     permissions: "0644"
-
+runcmd:
+    - sudo a2enconf adminer
+    - sudo systemctl restart apache2
