@@ -7,12 +7,46 @@ users: # Liste der Users
     shell: /bin/bash # Home shell des Users
     lock_passwd: false # Erlaubnis fuer den User mit einem Passwort einzuloggen
     plain_text_passwd: 'password' # Passwort des Users
-ssh_pwauth: true # Man braucht eine Autorisierung durch ein Passwort
+ssh_pwauth: true # Man darf eine Autorisierung durch ein Passwort
 disable_root: false # Man kann nicht Admin sein
 packages: # verschieden Zusatzinhalte
   - apache2 
+  - adminer
   - curl 
   - wget 
   - php 
   - libapache2-mod-php 
   - php-mysqli
+write_files:
+  - path: /var/www/html/info.php
+    content: |
+      <?php
+      // Show all information, defaults to INFO_ALL
+      phpinfo();
+      ?>
+    permissions: "0644"
+  - path: /var/www/html/db.php
+    content: |
+      <?php
+      //database
+      $servername = "172.23.98.36";
+      $username = "admin";
+      $password = "password";
+      $dbname = "mysql";
+
+      // Create connection
+      $conn = new mysqli($servername, $username, $password, $dbname);
+      // Check connection
+      if ($conn->connect_error) {
+              die("Connection failed: " . $conn->connect_error);
+      }
+
+      $sql = "select Host, User from mysql.user;";
+      $result = $conn->query($sql);
+      while($row = $result->fetch_assoc()){
+              echo($row["Host"] . " / " . $row["User"] . "<br />");
+      }
+      //var_dump($result);
+      ?>
+    permissions: "0644"
+

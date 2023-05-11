@@ -21,11 +21,9 @@
             "id": "ccd5671b97012858",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "KN02/README.md",
-                "mode": "source",
-                "source": false
+                "file": "KN02.pdf"
               }
             }
           }
@@ -96,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KN02/README.md",
+                "file": "KN02.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KN02/README.md",
+                "file": "KN02.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KN02/README.md"
+                "file": "KN02.pdf"
               }
             }
           }
@@ -159,12 +157,12 @@
   },
   "active": "ccd5671b97012858",
   "lastOpenFiles": [
+    "KN03.pdf",
+    "KN02/README.md",
     "KN02/C/Admin_DB_Enter.png",
     "KN02/Instanz_Delete.png",
-    "KN02/README.md",
     "KN02.pdf",
     "KN02/C/Admin DB Enter.png",
-    "KN03.pdf",
     "KN02/B/Web.png",
     "KN02/B/Status_B.png",
     "KN02/A/YAML_A.png",
